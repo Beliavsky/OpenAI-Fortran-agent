@@ -1,6 +1,7 @@
 # OpenAI-Fortran-agent
 Python script that uses OpenAI LLms to create Fortran programs, iterating with compiler error messages until they compile.
-An OpenAI key and credit card are needed. Here is a sample run that cost $0.07.
+An OpenAI key and credit card are needed. Here is a sample run that cost $0.07. The resulting code is saved here
+as `mix.f90`.
 
 ```
 c:\python\code\openai\OpenAI-Fortran-agent>python xopenai.py
