@@ -1,0 +1,10 @@
+model: o1-mini
+max_attempts: 10
+max_time: 100
+prompt_file: prompt_mix.txt
+source_file: mix.f90
+run_executable: yes
+print_code: yes
+print_compiler_error_messages: yes
+compiler: gfortran
+compiler_options: -O0 -fmax-errors=1
