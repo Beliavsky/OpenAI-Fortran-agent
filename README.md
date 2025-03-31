@@ -1,5 +1,5 @@
 # OpenAI-Fortran-agent
-Python script that uses OpenAI LLms to create Fortran programs, iterating with compiler error messages until they compile.
+Python script that uses OpenAI LLMs to create Fortran programs, iterating with compiler error messages until they compile.
 An OpenAI key and credit card are needed. Here is a sample run that cost $0.07. The resulting code is saved here
 as `mix.f90`.
 
