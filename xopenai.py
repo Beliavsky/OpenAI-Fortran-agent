@@ -187,7 +187,7 @@ while True:
             print("Final version:\n\n", code)
         if run_executable:
             if os.path.exists(executable_path):
-                print(f"Running executable: {executable_path}")
+                print(f"\nRunning executable: {executable_path}")
                 run_result = subprocess.run(executable_path, capture_output=True, text=True, input="5\n")
                 if run_result.returncode == 0:
                     print("\nOutput:\n", run_result.stdout)
